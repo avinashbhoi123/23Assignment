@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Styles for all divs */
+        div {
+            border: 1px solid #333;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* Specific style for div with id "inlineStyle" */
+        #inlineStyle {
+            color: red;
+        }
+    </style>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <div style="color: blue;">
+        <h2>Inline Style</h2>
+        <p>This div has inline CSS applied.</p>
+    </div>
+
+    <!-- Internal CSS -->
+    <div>
+        <h2>Internal Style</h2>
+        <p>This div uses the internal stylesheet.</p>
+    </div>
+
+    <!-- External CSS -->
+    <div class="externalStyle">
+        <h2>External Style</h2>
+        <p>This div uses an external stylesheet.</p>
+    </div>
+
+    <!-- Targeting the same element with inline, internal, and external CSS -->
+    <div id="targetElement">
+        <h2>CSS Targeting</h2>
+        <p>This div is targeted by inline, internal, and external CSS.</p>
+    </div>
+
+</body>
+</html>

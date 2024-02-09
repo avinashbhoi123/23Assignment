@@ -1,0 +1,33 @@
+/* Base block styling */
+.paragraph-block {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Modifier for highlighted paragraphs */
+.paragraph-block--highlight {
+    background-color: yellow;
+}
+
+/* Element within the block for subtext */
+.paragraph-block__subtext {
+    font-style: italic;
+    color: #555;
+}
+
+/* Modifier for warning paragraphs */
+.paragraph-block--warning {
+    color: red;
+    font-weight: bold;
+}
+
+/* Element within the block for small informational paragraphs */
+.paragraph-block__info {
+    font-size: 14px;
+}
+
+/* Modifier for making small informational paragraphs even smaller */
+.paragraph-block__info--small {
+    font-size: 12px;
+}

@@ -1,0 +1,62 @@
+/* Custom color palette */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #ecf0f1;
+    --input-background: #fff;
+    --input-border: #bdc3c7;
+    --input-focus: #2980b9;
+    --form-section-opacity: 0.8;
+}
+
+/* Form styling */
+.custom-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+}
+
+/* Form sections styling */
+.form-section {
+    margin-bottom: 15px;
+}
+
+/* Input styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--input-border);
+    border-radius: 4px;
+    background-color: var(--input-background);
+    transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--input-focus);
+    outline: none;
+}
+
+/* Button styling */
+button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Applying opacity to a specific form section */
+.form-section--opacity {
+    background-color: rgba(255, 255, 255, var(--form-section-opacity));
+}

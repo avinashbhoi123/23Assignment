@@ -1,0 +1,9 @@
+/* External CSS styles */
+.externalStyle {
+    background-color: lightgray;
+}
+
+/* Target the same element with external CSS */
+#targetElement {
+    font-weight: bold;
+}
